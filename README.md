@@ -16,16 +16,25 @@ This is the aci endpoint search tool python 3.6.
 
 ## Run
 
-#### change of the config
+#### change of the config (DevNet SendBox)
 file : endpint.py
 	
 	# Setting
-	APIC_IP = "<YOU_IP>"
-	APIC_ID = "<YOU_ID>"
-	APIC_PWD = "<YOU_PASSWORD>"
+	APIC_IP = "sandboxapicdc.cisco.com"
+	APIC_ID = "admin"
+	APIC_PWD = "ciscopsdt"
+
+<img src="./image/config.png">
+
+#### DevNet Sandbox
+Cisco has an 'always on' APIC [here](https://sandboxapicdc.cisco.com/) you can test this sript on. 
+
+It really does work;
 
 #### cli example
 	python3 endpoint.py
+
+	<img src="./image/run.png">
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE).   file for details.

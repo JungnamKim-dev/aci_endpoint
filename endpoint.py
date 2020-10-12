@@ -5,9 +5,9 @@ from mo import mo_endpoints
 
 
 # Setting
-APIC_IP = "10.200.150.11"
+APIC_IP = "sandboxapicdc.cisco.com"
 APIC_ID = "admin"
-APIC_PWD = "password"
+APIC_PWD = "ciscopsdt"
 APIC_COOKIE = ""
 requests.packages.urllib3.disable_warnings()
 
