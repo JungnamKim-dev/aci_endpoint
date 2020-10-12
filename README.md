@@ -6,7 +6,7 @@ This is the aci endpoint search tool python 3.6.
 	git clone https://github.com/ComtecSystem-dev/cisco_aci_endpoint.git
 
 #### 2. change into directory
-	cd sico_aci_end_point
+	cd cisco_aci_end_point
 
 #### 3. Create the virtual environment in a sub dir in the same directory
 	python3 -m venv venv
