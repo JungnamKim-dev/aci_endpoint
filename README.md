@@ -34,7 +34,7 @@ It really does work;
 #### cli example
 	python3 endpoint.py
 
-	<img src="./image/run.png">
+<img src="./image/run.png">
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE).   file for details.
